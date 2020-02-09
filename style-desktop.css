@@ -128,7 +128,7 @@ h5 {
 
   .tagline_header_02 {
     display: block;
-    margin-left: 451px;
+    margin-left: 304px;
   }
 
   .button {
@@ -143,6 +143,7 @@ h5 {
     align-items: center;
     position: relative;
     z-index: 1;
+    text-decoration: none;
   }
 
   .button-link {
@@ -150,7 +151,6 @@ h5 {
     font-size: 14px;
     line-height: 15px;
     text-transform: uppercase;
-    text-decoration: none;
     color: #ffffff;
     text-align: left;
     margin-left: 8px;
@@ -191,25 +191,25 @@ h5 {
   }
 
   .section_header {
+    position: absolute;
     font-family: OpenSans-Bold;
     font-size: 80px;
     text-transform: uppercase;
     color: #e7e7e7;
     margin-top: 115px;
     line-height: 60px;
-    margin-left: 50%;
-    position: absolute;
+    margin-left: 55%;
   }
 
   .footballer {
     position: absolute;
-    margin: 27px 0 0 392px;
+    margin: 65px 0 0 0px;
   }
 
   .number,
   .term,
   .definition {
-    margin-left: 50%;
+    margin-left: 55%;
   }
 
   .athlets-items {
@@ -276,7 +276,7 @@ h5 {
     font-weight: 400;
     color: #000000;
     margin-bottom: 54px;
-    padding-right: 333px;
+    padding-right: 30px;
   }
 
   .players {
@@ -307,13 +307,12 @@ h5 {
     margin-left: 10px;
     margin-top: 30px;
     margin-bottom: 55px;
-    padding-right: 40%;
   }
 
   .basketballer {
     position: absolute;
     right: 0;
-    margin: 25px 125px 0 0;
+    margin: 10px -200px 0 0;
   }
 
   .basket-items {
@@ -326,7 +325,7 @@ h5 {
 
   .basket-item_01 {
     background-color: #ffffff;
-    margin-top: 227px;
+    margin-top: 255px;
   }
 
   .basket-item_02 {
@@ -351,9 +350,9 @@ h5 {
   }
 
   .active {
+    max-width: 100vw;
     display: flex;
     flex-direction: column;
-
     margin: 0;
     padding: 0;
   }
@@ -361,7 +360,6 @@ h5 {
   .active-item {
     display: flex;
     flex-direction: row;
-
     margin: 0;
     padding: 0;
   }
@@ -373,11 +371,13 @@ h5 {
   .active-image_wrapper {
     width: 50%;
     height: auto;
-    flex-grow: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
   }
 
   .active-image {
-    /* height: auto; */
+    height: auto;
     display: block;
     margin: 0;
     padding: 0;
@@ -388,7 +388,6 @@ h5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     margin: 0;
     padding: 0;
   }
@@ -429,22 +428,22 @@ h5 {
 
   .active-content_term {
     font-family: OpenSans-Bold;
-    font-size: 80px;
+    font-size: 65px;
     color: #e7e7e7;
     text-transform: uppercase;
-    margin-bottom: 126px;
-    margin-left: 128px;
-    margin-top: 200px;
-    padding: 0;
+    margin: 16% 0 0 84px;
+  }
+
+  .active-content_term__03 {
+    margin-top: 23%;
   }
 
   .active-content_definition {
     font-family: OpenSans-Regular;
     font-size: 24px;
     color: #000000;
-    margin-left: 130px;
-    margin-top: 0;
-    padding-right: 350px;
+    margin: 116px 0 0 90px;
+    padding-right: 30%;
   }
 
   .footer {
@@ -458,7 +457,7 @@ h5 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 10px;
+    padding: 0;
   }
 
   .footer::after {

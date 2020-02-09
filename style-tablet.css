@@ -142,6 +142,7 @@ h5 {
     align-items: center;
     position: relative;
     z-index: 1;
+    text-decoration: none;
   }
 
   .button-link {
@@ -181,7 +182,7 @@ h5 {
   }
 
   .button:last-child {
-    margin-left: 30px;
+    margin-left: 19px;
   }
 
   .athlets {
@@ -190,26 +191,26 @@ h5 {
   }
 
   .section_header {
+    position: absolute;
     font-family: OpenSans-Bold;
     font-size: 80px;
     text-transform: uppercase;
     color: #e7e7e7;
     margin-top: 86px;
     line-height: 60px;
-    margin-left: 320px;
+    margin-left: 302px;
     margin-bottom: 18px;
-    position: absolute;
   }
 
   .footballer {
     position: absolute;
-    margin: 94px 0 0 -120px;
+    margin: 123px 0 0 -130px;
   }
 
   .number,
   .term,
   .definition {
-    margin-left: 300px;
+    margin-left: 285px;
   }
 
   .athlets-items {
@@ -288,7 +289,7 @@ h5 {
 
   .players > .section_header {
     margin-top: 57px;
-    margin-left: 37px;
+    margin-left: 23px;
   }
 
   .basket-items > .number {
@@ -312,7 +313,7 @@ h5 {
   .basketballer {
     position: absolute;
     right: 0;
-    margin: 25px 0 0 0;
+    margin: -12px 0 0 0;
   }
 
   .basket-items {
@@ -433,7 +434,7 @@ h5 {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    padding: 0 10px;
+    padding: 0;
   }
 
   .footer::after {
@@ -481,16 +482,16 @@ h5 {
     display: block;
     color: #ffffff;
     font-family: OpenSans-Bold;
-    font-size: 80px;
+    font-size: 76px;
     text-transform: uppercase;
   }
 
   .tagline_footer_02 {
     display: block;
-    margin-left: 6px;
+    margin-left: 25px;
     color: #8379a7;
     font-family: OpenSans-Regular;
-    font-size: 36px;
+    font-size: 32px;
     text-transform: uppercase;
   }
 
